@@ -1,0 +1,10 @@
+[tool.ruff]
+lint.select = [
+    "F",    # pyflakes
+    "I",    # isort
+    "W",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
