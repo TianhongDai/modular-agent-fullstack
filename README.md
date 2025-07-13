@@ -8,7 +8,7 @@ This project addresses those limitations by refactoring the codebase into a more
   <img src="assets/rag-ui.png" width="49%" />
 </div>
 
-## Limitaions of Gemini's Fullstack LangGrapgh Porject
+## Limitaions of Gemini's Fullstack LangGrapgh Project
 - **Heavy Dependence on LangGraph**: The original project relies extensively on LangGraph, not just for building the agent, but also for serving frontend components and powering the backend API server. This hides important implementation details and reduces flexibility for developers who prefer to use their own methods for frontend/backend integration.
 - **Difficult to Extend with Custom Agents**: The current frontend design is rigid and doesn’t support adding custom agents easily, for example, creating custom dashboards for workflow visualization or adding configurable parameter inputs.
 - **Limited to Gemini**
