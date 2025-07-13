@@ -40,6 +40,7 @@ cp .env.example .env
 POSTGRES_DB=rag
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
+DATABASE_URL=postgresql://postgres:postgres@database/rag
 # api-tokens
 OPENAI_API_KEY=<openai-api-key> # replace with your api-key if necessary
 GEMINI_API_KEY=<gemini-api-key> # replace with your api-key if necessary
